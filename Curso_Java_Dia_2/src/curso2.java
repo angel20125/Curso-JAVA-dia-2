@@ -9,6 +9,9 @@ public class curso2 {
                                     per1.getNombre(),per1.getSexo(), per1.getEdad());
         Profesor p = new Profesor("Ingeniero en Sistma",27,
                                     per1.getNombre(),per1.getSexo(),per1.getEdad());
+        System.out.println("Persona    :"+ per1+"\n");
+        System.out.println("Estudiante :"+ e+"\n");
+        System.out.println("Profesor   :"+ p+"\n");
     }
     
 }
