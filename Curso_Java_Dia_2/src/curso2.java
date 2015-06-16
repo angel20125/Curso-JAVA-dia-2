@@ -15,7 +15,7 @@ public class curso2 {
             seccion.setNumeroSeccion(i+1);
             seccion.setProfesorAsignado(Prof);
             for (int j = 0; j < 10; j++) {
-                Estudiante e= new Estudiante();
+                Estudiante e= new Estudiante("12312",carr.getNombre(),"Estudiante"+j,'m',27+j);
                 
                 seccion.getEstudiantes().add(e);
             }
