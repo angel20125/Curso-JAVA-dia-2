@@ -23,7 +23,7 @@ public class curso2 {
         }
         Pensum pensum = new Pensum();
         pensum.getMaterias().add(materia);
-       //carr.setPensum(pensum);
+      carr.setPensum(pensum);
 
     }
 
